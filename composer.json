@@ -1,0 +1,32 @@
+{
+  "name": "rodrigojavornik/totalvoice",
+  "description": "",
+  "keywords": [
+    "totalvoice",
+    "api"
+  ],
+  "homepage": "http://rodrigojavornik.com.br",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Rodrigo Dias Javornik",
+      "email": "rodrigojavornik@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": ">=4.8 < 6.0"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/",
+      "CallMe\\": "src/"
+    }
+  },
+  "scripts": {
+    "start": "php -S localhost:8080 -t public",
+    "test": "vendor\\bin\\phpunit"
+  }
+}
