@@ -5,8 +5,8 @@ require __DIR__ . '/../vendor/autoload.php';
 
 use CallMe\SocketHttpRequest;
 
-$token = '94bf8b13d7f6c6d9c58b13b4029eb40b';
-$telefone = '48984429946';
+$token = '';
+$telefone = '';
 
 $httpRequest = new SocketHttpRequest();
 $httpRequest->setHost('ssl://api.totalvoice.com.br');
